@@ -1,0 +1,1356 @@
+Welcome to OOParts-RHF, please specify eigenvalue convergence criteria(>=10E-10):
+Specify energy convergence criteria(>=N_mo*10E-10):
+Specify diis parameters convergence criteria(>10E-7)
+_________1e Integration Subroutine__________
+Number of atoms:2
+Number of shells:2
+Number of electrons:2
+Number of contracted gaussians:2
+Reading atomic information.atm:
+1 0 0 0 0 0 1 3 0 0 0 0 
+Reading basis information,bas:
+0 0 1 1 0 6 7 0 1 0 1 1 0 8 9 0 
+Overlap 0,0successful!:
+1.00000387023 
+NuclearV 0,0successful!:
+-2.31343628326 
+Kinetic 0,0successful!:
+1.50000580535 
+Overlap 1,0successful!:
+0.382894367859 
+NuclearV 1,0successful!:
+-0.921996010007 
+Kinetic 1,0successful!:
+0.206762958644 
+Overlap 0,1successful!:
+0.382894367859 
+NuclearV 0,1successful!:
+-0.921996010007 
+Kinetic 0,1successful!:
+0.206762958644 
+Overlap 1,1successful!:
+1.00000387023 
+NuclearV 1,1successful!:
+-2.31343628326 
+Kinetic 1,1successful!:
+1.50000580535 
+Setup files (atomic,basis,environmental) closed!
+_________2e Integration Subroutine_________
+Number of atoms:2
+Number of shells:2
+Number of electrons:2
+Number of contracted gaussians:2
+Reading atomic information.atm:
+1 0 0 0 0 0 1 3 0 0 0 0 
+Reading basis information,bas:
+0 0 1 1 0 6 7 0 1 0 1 1 0 8 9 0 
+2e integral 0,0,0,0successful!:
+1.12838790129 
+2e integral 1,0,0,0successful!:
+0.37183861903 
+2e integral 0,1,0,0successful!:
+0.37183861903 
+2e integral 1,1,0,0successful!:
+0.685577342561 
+2e integral 0,0,1,0successful!:
+0.37183861903 
+2e integral 1,0,1,0successful!:
+0.165429522312 
+2e integral 0,1,1,0successful!:
+0.165429522312 
+2e integral 1,1,1,0successful!:
+0.37183861903 
+2e integral 0,0,0,1successful!:
+0.37183861903 
+2e integral 1,0,0,1successful!:
+0.165429522312 
+2e integral 0,1,0,1successful!:
+0.165429522312 
+2e integral 1,1,0,1successful!:
+0.37183861903 
+2e integral 0,0,1,1successful!:
+0.685577342561 
+2e integral 1,0,1,1successful!:
+0.37183861903 
+2e integral 0,1,1,1successful!:
+0.37183861903 
+2e integral 1,1,1,1successful!:
+1.12838790129 
+Setup files (atomic,basis,environmental) closed!
+__________Basis Orthonormalization Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading overlap integrals:
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix S, original S buffered!
+Diagonal trasformation of S finished!Final U written to S!Eigenvalues written to d!
+U written to file.
+X computed and successfully written!
+_________Nuclear Repulsion Subroutine__________
+Number of atoms:2
+Number of base shells:2
+Atom information:
+1 0 0 0 0 0 1 3 0 0 0 0 
+Basis information:
+0 0 1 1 0 6 7 0 1 0 1 1 0 8 9 0 
+Env information:
+0 0 0 0.8 0.8 0.8 1 2.52648 1 2.52648 
+Nuclear repulsion energy:0.360843918244
+__________NOTICE: ENTERING SCF PROCESS!__________
+Iteration number:0
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+0.9 -0.8 0.7 1 
+Parameters read.Density matrix elements:
+1.62 1.26 1.26 0.98 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+1.62 1.26 1.26 0.98 
+Fock matrix elements:
+1.15988571189 -0.351094775268 -0.351094775268 1.18463363558 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+2.46853182968 0.0133946862069 0.0133946862069 0.593799945542 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+0 0 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+0.00714430728927 -0.999974479111 -0.999974479111 -0.00714430728927 
+New C generated!
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+New C written!
+0.593704247345 2.46862752788 
+Eigenvalues written!
+Eigenvals converged?0
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+0
+Last energy read!
+Reading density matrix:
+1.62 1.26 1.26 0.98 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+1.15988571189 -0.351094775268 -0.351094775268 1.18463363558 
+Fock matrix read!
+New electronic energy:-0.881054774773
+Electronic energy converged?0
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+Former parameters read.
+Current number of lines:2
+Constructing B inner product matrix of delta_p's:
+10.4523479104 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+1 
+New parameters:
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+DIIS converged?1
+Iteration number:1
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+Parameters read.Density matrix elements:
+0.738631691003 0.722999387679 0.722999387679 0.707697924354 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.738631691003 0.722999387679 0.722999387679 0.707697924354 
+Fock matrix elements:
+0.298784745314 -0.51476028238 -0.51476028238 0.299980911714 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31928467762 0.000647418901882 0.000647418901882 -0.155743530459 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+0.593704247345 2.46862752788 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+0.000438919548282 -0.999999903675 -0.999999903675 -0.000438919548282 
+New C generated!
+-0.601693207144 0.899863191502 -0.600903040296 -0.900391034554 
+New C written!
+-0.155743814624 1.31928496178 
+Eigenvalues written!
+Eigenvals converged?0
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-0.881054774773
+Last energy read!
+Reading density matrix:
+0.738631691003 0.722999387679 0.722999387679 0.707697924354 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.298784745314 -0.51476028238 -0.51476028238 0.299980911714 
+Fock matrix read!
+New electronic energy:-1.26103484714
+Electronic energy converged?0
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601693207144 0.899863191502 -0.600903040296 -0.900391034554 
+Former parameters read.
+Current number of lines:3
+Constructing B inner product matrix of delta_p's:
+0.000105373948816 -0.00200056084011 
+-0.00200056084011 10.4523479104 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+0.999798599534 0.000201400465889 
+New parameters:
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+DIIS converged?0
+Iteration number:2
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+Parameters read.Density matrix elements:
+0.724072349295 0.723118545667 0.723118545667 0.722165998462 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.724072349295 0.723118545667 0.723118545667 0.722165998462 
+Fock matrix elements:
+0.299337020843 -0.514788528424 -0.514788528424 0.29941073682 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931594657 3.98983927993e-05 3.98983927993e-05 -0.155770427396 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155743814624 1.31928496178 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+2.70481738966e-05 -0.999999999634 -0.999999999634 -2.70481738966e-05 
+New C generated!
+-0.601322528217 0.900110935386 -0.601273834623 -0.900143463422 
+New C written!
+-0.155770428475 1.31931594765 
+Eigenvalues written!
+Eigenvals converged?0
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.26103484714
+Last energy read!
+Reading density matrix:
+0.724072349295 0.723118545667 0.723118545667 0.722165998462 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299337020843 -0.514788528424 -0.514788528424 0.29941073682 
+Fock matrix read!
+New electronic energy:-1.2611756343
+Electronic energy converged?0
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601322528217 0.900110935386 -0.601273834623 -0.900143463422 
+Former parameters read.
+Current number of lines:4
+Constructing B inner product matrix of delta_p's:
+4.00171158474e-07 6.49231094573e-06 -0.00013050512027 
+6.49231094573e-06 0.000105331508371 -0.00200015792597 
+-0.00013050512027 -0.00200015792597 10.4523479104 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+1.06566984779 -0.0656705867448 7.38956181912e-07 
+New parameters:
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+DIIS converged?0
+Iteration number:3
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+Parameters read.Density matrix elements:
+0.723118835649 0.723119015532 0.723119015532 0.723119195415 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723118835649 0.723119015532 0.723119015532 0.723119195415 
+Fock matrix elements:
+0.299373875702 -0.514788631774 -0.514788631774 0.29937386179 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.3193160977 -7.52979836816e-09 -7.5297983404e-09 -0.155770509423 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770428475 1.31931594765 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+-5.10464831814e-09 -1 -1 5.10464831814e-09 
+New C generated!
+-0.601298177045 0.900127202802 -0.601298186235 -0.900127196664 
+New C written!
+-0.155770509423 1.3193160977 
+Eigenvalues written!
+Eigenvals converged?0
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.2611756343
+Last energy read!
+Reading density matrix:
+0.723118835649 0.723119015532 0.723119015532 0.723119195415 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373875702 -0.514788631774 -0.514788631774 0.29937386179 
+Fock matrix read!
+New electronic energy:-1.26117617774
+Electronic energy converged?0
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298177045 0.900127202802 -0.601298186235 -0.900127196664 
+Former parameters read.
+Current number of lines:5
+Constructing B inner product matrix of delta_p's:
+1.43437214275e-14 -8.04800288407e-11 -1.22559504843e-09 -6.08183585562e-09 
+-8.04800288407e-11 4.54445041069e-07 6.91858218113e-06 -0.000139073892573 
+-1.22559504843e-09 6.91858218113e-06 0.000105331508371 -0.00200015792597 
+-6.08183585562e-09 -0.000139073892573 -0.00200015792597 10.4523479104 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+1.00356341285 -0.00382642433571 0.000263011480173 1.174629308e-12 
+New parameters:
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+DIIS converged?0
+Iteration number:4
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+Parameters read.Density matrix elements:
+0.723119246708 0.723119006415 0.723119006415 0.723118766122 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119246708 0.723119006415 0.723119006415 0.723118766122 
+Fock matrix elements:
+0.299373845424 -0.514788634301 -0.514788634301 0.299373864008 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931607906 1.00584942736e-08 1.00584942042e-08 -0.155770521396 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770509423 1.3193160977 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+6.81891779811e-09 -1 -1 -6.81891779811e-09 
+New C generated!
+-0.601298187778 0.900127195633 -0.601298175502 -0.900127203833 
+New C written!
+-0.155770521396 1.31931607906 
+Eigenvalues written!
+Eigenvals converged?0
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.26117617774
+Last energy read!
+Reading density matrix:
+0.723119246708 0.723119006415 0.723119006415 0.723118766122 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373845424 -0.514788634301 -0.514788634301 0.299373864008 
+Fock matrix read!
+New electronic energy:-1.26117617381
+Electronic energy converged?0
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298187778 0.900127195633 -0.601298175502 -0.900127203833 
+Former parameters read.
+Current number of lines:6
+Constructing B inner product matrix of delta_p's:
+2.54322955078e-14 -4.73824357573e-14 1.07506185483e-10 1.63670178313e-09 -3.27777978826e-08 
+-4.73824357573e-14 8.836771772e-14 -2.00291240557e-10 -3.0496313906e-09 3.04759996446e-08 
+1.07506185483e-10 -2.00291240557e-10 4.54445041069e-07 6.91858218113e-06 -0.000139073892573 
+1.63670178313e-09 -3.0496313906e-09 6.91858218113e-06 0.000105331508371 -0.00200015792597 
+-3.27777978826e-08 3.04759996446e-08 -0.000139073892573 -0.00200015792597 10.4523479104 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+0.233772105812 0.76881828146 -0.00279243191141 0.000202044639005 -1.11017848791e-13 
+New parameters:
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+DIIS converged?0
+Iteration number:5
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+Parameters read.Density matrix elements:
+0.723119387655 0.723119006376 0.723119006376 0.723118625098 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119387655 0.723119006376 0.723119006376 0.723118625098 
+Fock matrix elements:
+0.299373839913 -0.514788634312 -0.514788634312 0.2993738694 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931607898 1.59596868499e-08 1.59596867944e-08 -0.155770521447 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521396 1.31931607906 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.08194914423e-08 -1 -1 -1.08194914423e-08 
+New C generated!
+-0.601298191379 0.900127193227 -0.601298171901 -0.900127206239 
+New C written!
+-0.155770521447 1.31931607898 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.26117617381
+Last energy read!
+Reading density matrix:
+0.723119387655 0.723119006376 0.723119006376 0.723118625098 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373839913 -0.514788634312 -0.514788634312 0.2993738694 
+Fock matrix read!
+New electronic energy:-1.26117617379
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298191379 0.900127193227 -0.601298171901 -0.900127206239 
+Former parameters read.
+Current number of lines:7
+Constructing B inner product matrix of delta_p's:
+6.40303141892e-14 -2.52262158864e-14 -7.51825713367e-14 1.7058211318e-10 2.59698574763e-09 
+-2.52262158864e-14 9.93844834363e-15 2.96198505672e-14 -6.72047501543e-11 -1.02314211041e-09 
+-7.51825713367e-14 2.96198505672e-14 8.836771772e-14 -2.00291240557e-10 -3.0496313906e-09 
+1.7058211318e-10 -6.72047501543e-11 -2.00291240557e-10 4.54445041069e-07 6.91858218113e-06 
+2.59698574763e-09 -1.02314211041e-09 -3.0496313906e-09 6.91858218113e-06 0.000105331508371 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+0.142178167496 0.577147558062 0.281572557133 -0.000972407145375 7.4124454064e-05 
+New parameters:
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+DIIS converged?0
+Iteration number:6
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+Parameters read.Density matrix elements:
+0.723119368257 0.723119006384 0.723119006384 0.72311864451 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119368257 0.723119006384 0.723119006384 0.72311864451 
+Fock matrix elements:
+0.299373840674 -0.51478863431 -0.51478863431 0.299373868661 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931607899 1.51478195681e-08 1.51478195543e-08 -0.155770521438 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521447 1.31931607898 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.02691052605e-08 -1 -1 -1.02691052605e-08 
+New C generated!
+-0.601298190884 0.900127193558 -0.601298172396 -0.900127205908 
+New C written!
+-0.155770521438 1.31931607899 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.26117617379
+Last energy read!
+Reading density matrix:
+0.723119368257 0.723119006384 0.723119006384 0.72311864451 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373840674 -0.51478863431 -0.51478863431 0.299373868661 
+Fock matrix read!
+New electronic energy:-1.2611761738
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+-0.601298190884 0.900127193558 -0.601298172396 -0.900127205908 
+Former parameters read.
+Current number of lines:8
+Constructing B inner product matrix of delta_p's:
+5.76781576363e-14 3.29538616666e-15 -2.3942251122e-14 -7.13559106356e-14 1.61899819366e-10 
+3.29538616666e-15 1.88278726966e-16 -1.36791752713e-15 -4.07686431164e-15 9.24999056398e-12 
+-2.3942251122e-14 -1.36791752713e-15 9.93844834363e-15 2.96198505672e-14 -6.72047501543e-11 
+-7.13559106356e-14 -4.07686431164e-15 2.96198505672e-14 8.836771772e-14 -2.00291240557e-10 
+1.61899819366e-10 9.24999056398e-12 -6.72047501543e-11 -2.00291240557e-10 4.54445041069e-07 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+0.0199056232069 0.605961773867 0.374359612027 -0.000262829152171 3.58200505103e-05 
+New parameters:
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+DIIS converged?0
+Iteration number:7
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+Parameters read.Density matrix elements:
+0.723119368774 0.723119006384 0.723119006384 0.723118643993 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119368774 0.723119006384 0.723119006384 0.723118643993 
+Fock matrix elements:
+0.299373840654 -0.51478863431 -0.51478863431 0.299373868681 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931607899 1.51694693612e-08 1.51694694028e-08 -0.155770521438 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521438 1.31931607899 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.02837822246e-08 -1 -1 -1.02837822246e-08 
+New C generated!
+-0.601298190897 0.900127193549 -0.601298172383 -0.900127205917 
+New C written!
+-0.155770521438 1.31931607899 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.2611761738
+Last energy read!
+Reading density matrix:
+0.723119368774 0.723119006384 0.723119006384 0.723118643993 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373840654 -0.51478863431 -0.51478863431 0.299373868681 
+Fock matrix read!
+New electronic energy:-1.2611761738
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+-0.601298190897 0.900127193549 -0.601298172383 -0.900127205917 
+Former parameters read.
+Current number of lines:9
+Constructing B inner product matrix of delta_p's:
+5.78431246625e-14 -8.79195440717e-17 3.30009541875e-15 -2.39764656477e-14 -7.14578854584e-14 
+-8.79195440717e-17 1.33635009235e-19 -5.01603117465e-18 3.64433942799e-17 1.08617499047e-16 
+3.30009541875e-15 -5.01603117465e-18 1.88278726966e-16 -1.36791752713e-15 -4.07686431164e-15 
+-2.39764656477e-14 3.64433942799e-17 -1.36791752713e-15 9.93844834363e-15 2.96198505672e-14 
+-7.14578854584e-14 1.08617499047e-16 -4.07686431164e-15 2.96198505672e-14 8.836771772e-14 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+0.0341101022679 0.0725908860318 0.713457935668 0.179647766236 0.000193309795933 
+New parameters:
+-0.601298328692 0.900127101408 -0.601298034504 -0.900127297931 
+DIIS converged?0
+Iteration number:8
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298328692 0.900127101408 -0.601298034504 -0.900127297931 
+Parameters read.Density matrix elements:
+0.723119360176 0.723119006386 0.723119006386 0.723118652597 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119360176 0.723119006386 0.723119006386 0.723118652597 
+Fock matrix elements:
+0.299373840991 -0.514788634309 -0.514788634309 0.299373868352 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.319316079 1.48090003038e-08 1.48090003038e-08 -0.155770521434 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521438 1.31931607899 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.00394107705e-08 -1 -1 -1.00394107705e-08 
+New C generated!
+-0.601298190677 0.900127193696 -0.601298172603 -0.90012720577 
+New C written!
+-0.155770521434 1.319316079 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.2611761738
+Last energy read!
+Reading density matrix:
+0.723119360176 0.723119006386 0.723119006386 0.723118652597 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373840991 -0.514788634309 -0.514788634309 0.299373868352 
+Fock matrix read!
+New electronic energy:-1.2611761738
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+-0.601298328692 0.900127101408 -0.601298034504 -0.900127297931 
+-0.601298190677 0.900127193696 -0.601298172603 -0.90012720577 
+Former parameters read.
+Current number of lines:10
+Constructing B inner product matrix of delta_p's:
+5.51301988834e-14 1.42803267675e-15 -8.58330079919e-17 3.22177646049e-15 -2.34074482257e-14 
+1.42803267675e-15 3.69902047173e-17 -2.22332509913e-18 8.34533918017e-17 -6.0632106399e-16 
+-8.58330079919e-17 -2.22332509913e-18 1.33635009235e-19 -5.01603117465e-18 3.64433942799e-17 
+3.22177646049e-15 8.34533918017e-17 -5.01603117465e-18 1.88278726966e-16 -1.36791752713e-15 
+-2.34074482257e-14 -6.0632106399e-16 3.64433942799e-17 -1.36791752713e-15 9.93844834363e-15 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+-0.147050607328 0.372448732713 0.225484150842 0.767872860741 -0.218755136969 
+New parameters:
+-0.601298349874 0.900127087244 -0.601298013309 -0.900127312076 
+DIIS converged?0
+Iteration number:9
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298349874 0.900127087244 -0.601298013309 -0.900127312076 
+Parameters read.Density matrix elements:
+0.723119411122 0.72311900637 0.72311900637 0.723118601619 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119411122 0.72311900637 0.72311900637 0.723118601619 
+Fock matrix elements:
+0.299373838996 -0.514788634313 -0.514788634313 0.299373870298 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931607897 1.69420462381e-08 1.69420462659e-08 -0.155770521455 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521434 1.319316079 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.14854587068e-08 -1 -1 -1.14854587068e-08 
+New C generated!
+-0.601298191978 0.900127192827 -0.601298171302 -0.900127206639 
+New C written!
+-0.155770521455 1.31931607897 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.2611761738
+Last energy read!
+Reading density matrix:
+0.723119411122 0.72311900637 0.72311900637 0.723118601619 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373838996 -0.514788634313 -0.514788634313 0.299373870298 
+Fock matrix read!
+New electronic energy:-1.26117617379
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+-0.601298328692 0.900127101408 -0.601298034504 -0.900127297931 
+-0.601298349874 0.900127087244 -0.601298013309 -0.900127312076 
+-0.601298191978 0.900127192827 -0.601298171302 -0.900127206639 
+Former parameters read.
+Current number of lines:11
+Constructing B inner product matrix of delta_p's:
+7.21576657158e-14 -9.68009869018e-15 1.63374624876e-15 -9.81975814247e-17 3.68588568949e-15 
+-9.68009869018e-15 1.29860507179e-15 -2.19170406276e-16 1.31734064692e-17 -4.94469116296e-16 
+1.63374624876e-15 -2.19170406276e-16 3.69902047173e-17 -2.22332509913e-18 8.34533918017e-17 
+-9.81975814247e-17 1.31734064692e-17 -2.22332509913e-18 1.33635009235e-19 -5.01603117465e-18 
+3.68588568949e-15 -4.94469116296e-16 8.34533918017e-17 -5.01603117465e-18 1.88278726966e-16 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+0.0572557154562 0.436504425859 0.143521220949 0.390437905803 -0.0277192680667 
+New parameters:
+-0.601298331413 0.900127099588 -0.601298031781 -0.900127299748 
+DIIS converged?0
+Iteration number:10
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298331413 0.900127099588 -0.601298031781 -0.900127299748 
+Parameters read.Density matrix elements:
+0.72311936672 0.723119006384 0.723119006384 0.723118646047 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.72311936672 0.723119006384 0.723119006384 0.723118646047 
+Fock matrix elements:
+0.299373840734 -0.51478863431 -0.51478863431 0.299373868601 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931607899 1.50828702167e-08 1.50828702861e-08 -0.155770521438 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521455 1.31931607897 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.0225074387e-08 -1 -1 -1.0225074387e-08 
+New C generated!
+-0.601298190844 0.900127193585 -0.601298172436 -0.900127205881 
+New C written!
+-0.155770521438 1.31931607899 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.26117617379
+Last energy read!
+Reading density matrix:
+0.72311936672 0.723119006384 0.723119006384 0.723118646047 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373840734 -0.51478863431 -0.51478863431 0.299373868601 
+Fock matrix read!
+New electronic energy:-1.2611761738
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+-0.601298328692 0.900127101408 -0.601298034504 -0.900127297931 
+-0.601298349874 0.900127087244 -0.601298013309 -0.900127312076 
+-0.601298331413 0.900127099588 -0.601298031781 -0.900127299748 
+-0.601298190844 0.900127193585 -0.601298172436 -0.900127205881 
+Former parameters read.
+Current number of lines:12
+Constructing B inner product matrix of delta_p's:
+5.71899224816e-14 7.51071481153e-15 -8.61783751175e-15 1.45446448007e-15 -8.74217120515e-17 
+7.51071481153e-15 9.86377224654e-16 -1.13177491858e-15 1.91013860819e-16 -1.1481035399e-17 
+-8.61783751175e-15 -1.13177491858e-15 1.29860507179e-15 -2.19170406276e-16 1.31734064692e-17 
+1.45446448007e-15 1.91013860819e-16 -2.19170406276e-16 3.69902047173e-17 -2.22332509913e-18 
+-8.74217120515e-17 -1.1481035399e-17 1.31734064692e-17 -2.22332509913e-18 1.33635009235e-19 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+0.065751938271 0.0486460487989 0.485099259937 0.0582431985194 0.342259554474 
+New parameters:
+-0.60129833126 0.900127099691 -0.601298031935 -0.900127299646 
+DIIS converged?0
+Iteration number:11
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.60129833126 0.900127099691 -0.601298031935 -0.900127299646 
+Parameters read.Density matrix elements:
+0.723119366352 0.723119006385 0.723119006385 0.723118646418 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119366352 0.723119006385 0.723119006385 0.723118646418 
+Fock matrix elements:
+0.29937384075 -0.514788634309 -0.514788634309 0.299373868589 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.319316079 1.50677153393e-08 1.50677152977e-08 -0.155770521436 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521438 1.31931607899 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.0214800497e-08 -1 -1 -1.0214800497e-08 
+New C generated!
+-0.601298190835 0.900127193591 -0.601298172445 -0.900127205875 
+New C written!
+-0.155770521436 1.319316079 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.2611761738
+Last energy read!
+Reading density matrix:
+0.723119366352 0.723119006385 0.723119006385 0.723118646418 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.29937384075 -0.514788634309 -0.514788634309 0.299373868589 
+Fock matrix read!
+New electronic energy:-1.2611761738
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+-0.601298328692 0.900127101408 -0.601298034504 -0.900127297931 
+-0.601298349874 0.900127087244 -0.601298013309 -0.900127312076 
+-0.601298331413 0.900127099588 -0.601298031781 -0.900127299748 
+-0.60129833126 0.900127099691 -0.601298031935 -0.900127299646 
+-0.601298190835 0.900127193591 -0.601298172445 -0.900127205875 
+Former parameters read.
+Current number of lines:13
+Constructing B inner product matrix of delta_p's:
+5.70724511601e-14 6.23599059185e-17 7.5029971313e-15 -8.60898220049e-15 1.45296993601e-15 
+6.23599059185e-17 6.81379975976e-20 8.19810885676e-18 -9.40655784373e-18 1.58757998793e-18 
+7.5029971313e-15 8.19810885676e-18 9.86377224654e-16 -1.13177491858e-15 1.91013860819e-16 
+-8.60898220049e-15 -9.40655784373e-18 -1.13177491858e-15 1.29860507179e-15 -2.19170406276e-16 
+1.45296993601e-15 1.58757998793e-18 1.91013860819e-16 -2.19170406276e-16 3.69902047173e-17 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+-0.0398156872401 0.165595108181 0.433687113776 0.162193445091 0.278340020192 
+New parameters:
+-0.601298339222 0.900127094367 -0.601298023968 -0.900127304963 
+DIIS converged?0
+Iteration number:12
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298339222 0.900127094367 -0.601298023968 -0.900127304963 
+Parameters read.Density matrix elements:
+0.723119385502 0.723119006379 0.723119006379 0.723118627256 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119385502 0.723119006379 0.723119006379 0.723118627256 
+Fock matrix elements:
+0.29937384 -0.514788634311 -0.514788634311 0.299373869321 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931607898 1.58698402197e-08 1.58698401642e-08 -0.155770521444 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521436 1.319316079 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.07585820488e-08 -1 -1 -1.07585820488e-08 
+New C generated!
+-0.601298191324 0.900127193264 -0.601298171956 -0.900127206202 
+New C written!
+-0.155770521444 1.31931607898 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.2611761738
+Last energy read!
+Reading density matrix:
+0.723119385502 0.723119006379 0.723119006379 0.723118627256 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.29937384 -0.514788634311 -0.514788634311 0.299373869321 
+Fock matrix read!
+New electronic energy:-1.2611761738
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+-0.601298328692 0.900127101408 -0.601298034504 -0.900127297931 
+-0.601298349874 0.900127087244 -0.601298013309 -0.900127312076 
+-0.601298331413 0.900127099588 -0.601298031781 -0.900127299748 
+-0.60129833126 0.900127099691 -0.601298031935 -0.900127299646 
+-0.601298339222 0.900127094367 -0.601298023968 -0.900127304963 
+-0.601298191324 0.900127193264 -0.601298171956 -0.900127206202 
+Former parameters read.
+Current number of lines:14
+Constructing B inner product matrix of delta_p's:
+6.33086182818e-14 -3.40822413531e-15 6.56785578663e-17 7.90228948885e-15 -9.06713255551e-15 
+-3.40822413531e-15 1.83481997807e-16 -3.53580993696e-18 -4.25420337702e-16 4.8812975008e-16 
+6.56785578663e-17 -3.53580993696e-18 6.81379975976e-20 8.19810885676e-18 -9.40655784373e-18 
+7.90228948885e-15 -4.25420337702e-16 8.19810885676e-18 9.86377224654e-16 -1.13177491858e-15 
+-9.06713255551e-15 4.8812975008e-16 -9.40655784373e-18 -1.13177491858e-15 1.29860507179e-15 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+-0.041310324389 0.957092821948 0.190012707158 0.289081590111 -0.394876794828 
+New parameters:
+-0.601298337355 0.900127095615 -0.601298025836 -0.900127303716 
+DIIS converged?0
+Iteration number:13
+
+__________Density Matrix Formation Subroutine__________
+Reading combination parameters.
+Number of electrons:2
+Number of contracted gaussians:2
+-0.601298337355 0.900127095615 -0.601298025836 -0.900127303716 
+Parameters read.Density matrix elements:
+0.723119381012 0.72311900638 0.72311900638 0.723118631749 
+Density matrix written.
+__________Fock Matrix Forming Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading density matrix
+0.723119381012 0.72311900638 0.72311900638 0.723118631749 
+Fock matrix elements:
+0.299373840176 -0.514788634311 -0.514788634311 0.299373869149 
+Finshed reading integrals and Fock calculation!
+_________Fock Rescaling Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading original Fock Matrix and the rescaling matrix X,and initializing buffers
+Fock rescalation successful!Fock prime:
+1.31931607899 1.56814870117e-08 1.56814869423e-08 -0.155770521442 
+_________Fock_prime Diagonization and C_prime Rescaling Subroutine________
+Number of electrons:2
+Number of contracted gaussians2
+F_pri and X matrices read.
+Reading former eigenvalues
+-0.155770521444 1.31931607898 
+Former eigenvalues read.
+Tridiagonal trasformation successful!
+Tridiagonal transformation matrix Q written to matrix F_pri.
+Diagonal trasformation of F_pri finished!Final C_pri written to F_pri by column!Eigenvalues written to eigs!C_pri:
+1.06308924555e-08 -1 -1 -1.06308924555e-08 
+New C generated!
+-0.601298191209 0.900127193341 -0.601298172071 -0.900127206125 
+New C written!
+-0.155770521442 1.31931607899 
+Eigenvalues written!
+Eigenvals converged?1
+__________Total Energy Subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading last energy:
+-1.2611761738
+Last energy read!
+Reading density matrix:
+0.723119381012 0.72311900638 0.72311900638 0.723118631749 
+Density matrix read.
+Reading kinetic integrals:
+1.50000580535 0.206762958644 0.206762958644 1.50000580535 
+Kinetic integrals read!
+Reading Vnuc integrals:
+-2.31343628326 -0.921996010007 -0.921996010007 -2.31343628326 
+Vnuc integrals read!
+Reading Fock matrix:
+0.299373840176 -0.514788634311 -0.514788634311 0.299373869149 
+Fock matrix read!
+New electronic energy:-1.2611761738
+Electronic energy converged?1
+__________OOParts DIIS subroutine__________
+Number of electrons:2
+Number of contracted gaussians:2
+Reading former C parameters!
+0.9 -0.8 0.7 1 
+-0.60771362129 0.895808368705 -0.594852050662 -0.904400086669 
+-0.601694419658 0.899862374859 -0.600901821624 -0.900391841979 
+-0.601298110611 0.900127255322 -0.60129826019 -0.900127155402 
+-0.601298281516 0.900127132948 -0.601298081704 -0.900127266427 
+-0.601298340117 0.900127093767 -0.601298023071 -0.90012730556 
+-0.601298332052 0.900127099161 -0.601298031142 -0.900127300175 
+-0.601298332267 0.900127099017 -0.601298030927 -0.900127300318 
+-0.601298328692 0.900127101408 -0.601298034504 -0.900127297931 
+-0.601298349874 0.900127087244 -0.601298013309 -0.900127312076 
+-0.601298331413 0.900127099588 -0.601298031781 -0.900127299748 
+-0.60129833126 0.900127099691 -0.601298031935 -0.900127299646 
+-0.601298339222 0.900127094367 -0.601298023968 -0.900127304963 
+-0.601298337355 0.900127095615 -0.601298025836 -0.900127303716 
+-0.601298191209 0.900127193341 -0.601298172071 -0.900127206125 
+Former parameters read.
+Current number of lines:15
+Constructing B inner product matrix of delta_p's:
+6.18177029242e-14 7.89679582135e-16 -3.36785326695e-15 6.49005868915e-17 7.80868581829e-15 
+7.89679582135e-16 1.00876258714e-17 -4.30220607032e-17 8.29060980386e-19 9.97507103468e-17 
+-3.36785326695e-15 -4.30220607032e-17 1.83481997807e-16 -3.53580993696e-18 -4.25420337702e-16 
+6.49005868915e-17 8.29060980386e-19 -3.53580993696e-18 6.81379975976e-20 8.19810885676e-18 
+7.80868581829e-15 9.97507103468e-17 -4.25420337702e-16 8.19810885676e-18 9.86377224654e-16 
+Setting redundant elements of B_pri.
+B_pri successfully written in row major!
+LU factorization of B_pri successful.
+DIIS linear functions solved.C's written to vector X:
+0.584815539471 7.26138268006 -0.672040868784 -0.524627280172 -5.64953007057 
+New parameters:
+-0.601298287399 0.900127129021 -0.601298075826 -0.900127270358 
+DIIS converged?1
+All convergence requirements met!
+_________OOParts Summary Subroutine_________
+Number of electrons:2
+Number of contracted gaussians(=N_mo):2
+Convergence after 14 SCF cycles.
+Electronic Energy Ee(RHF):-1.2611761738
+MO energies(ascending order):
+-0.155770521442 1.31931607899 
+LCAO-MO parameters(in correspondence with MO's above):
+-0.601298287399 -0.601298075826 
+0.900127129021 -0.900127270358 
+Nuclear repulsion energy:0.360843918244
+Total energy:-0.900332255556
+Total CPU time(s):0
