@@ -1,8 +1,8 @@
-# OOParts-project
+ # OOParts-project
 OOParts: Oops! I hope you know what you are doing!
 Version 1.0.0
 This version of OOParts still needs to specify the atom and the basis information in data/atom.txt, bas.txt, env.txt manually.
-Only support close-shell restricted hatree fock.
+Only support close-shell restricted hatree fock. Now enables DIIS.
 
 Group leader: Fengyu Xie(Izzy)
 Acknowledgements:
